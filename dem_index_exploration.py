@@ -51,6 +51,4 @@ if not_free_years:
     last_not_free_year = not_free_years[-1]
     plt.fill_between(range(first_not_free_year, last_not_free_year + 2), 0, 100, color='red', alpha=0.3)
 
-print(status_years)
-
 plt.show()
